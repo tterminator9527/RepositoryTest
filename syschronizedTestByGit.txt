@@ -1,3 +1,5 @@
 test haha
 
 update from local by zjw
+
+simulate the other team member changer some src files, please update in locale area.
