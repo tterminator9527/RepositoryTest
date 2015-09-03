@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<configuration status="error">  
+  <appenders>  
+    <Console name="Console" target="SYSTEM_OUT">  
+      <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY"/>  
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>  
+    </Console>  
+    <File name="log" fileName="weiyj.log" append="true">  
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>  
+    </File>  
+  </appenders>  
+  <loggers>  
+    <root level="trace">  
+      <appender-ref ref="log"/>  
+      <appender-ref ref="Console"/>  
+    </root>  
+  </loggers>  
+</configuration> 

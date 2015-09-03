@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="demo" extends="struts-default">
+        <action name="customReportHeader" class="actions.HeaderConstruction" method="productReportHeader">
+            <result name="success">success.jsp</result>
+		</action>
+		
+		<action name="reportDetail" class="actions.DetailConstruction" method="reportDetail">
+            <result name="success">reportDetail.jsp</result>
+		</action>
+		
+		<action name="submitReport" class="actions.reportCollection" method="submitReport">
+            <result name="success">success.jsp</result>
+		</action>
+		
+		<action name="reportQuery" class="actions.ReportQuery" method="reportQuery">
+            <result name="success">queryList.jsp</result>
+		</action>
+    </package>
+</struts>
