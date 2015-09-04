@@ -3,3 +3,5 @@ test haha
 update from local by zjw
 
 simulate the other team member changer some src files, please update in locale area.
+
+after create the testBranch, then checkout back to master, change this file, then commit
