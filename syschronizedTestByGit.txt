@@ -7,3 +7,5 @@ simulate the other team member changer some src files, please update in locale a
 after create the testBranch, then checkout back to master, change this file, then commit
 
 create branch testBranch, then push remote
+
+some days later, commit again.
