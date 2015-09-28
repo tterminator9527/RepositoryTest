@@ -9,3 +9,6 @@ after create the testBranch, then checkout back to master, change this file, the
 create branch testBranch, then push remote
 
 some days later, commit again.
+
+submit from window git gui tool.
+
